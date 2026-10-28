@@ -1,0 +1,22 @@
+{
+	// Workspaces for the Sublime Merge Workspace Manager.
+	//
+	// Each workspace is a named list of repository paths; tabs open in this
+	// order and "~" is expanded. A workspace may also be written as an object
+	// with "repos" and an optional "keys" list that binds a shortcut which
+	// switches to it:
+	//
+	//   "Backend": {
+	//     "repos": ["~/Development/api", "~/Development/shared-lib"],
+	//     "keys": ["ctrl+alt+shift+1"]
+	//   },
+	//   "Website": ["~/Development/website"]
+	//
+	// After editing by hand, run "Workspace Manager: Regenerate Commands" from
+	// the command palette. Comments are dropped when the helper rewrites this
+	// file.
+	"workspaces": {
+	},
+	// Show a desktop notification after a workspace was changed.
+	"notifications": true
+}
